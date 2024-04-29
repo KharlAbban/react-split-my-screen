@@ -32,7 +32,7 @@ function App() {
           </Panel>
           <PanelResizeHandle title="Drag around to resize panes" className="add-hover-resizer" />
           <Panel className="h-screen py-2 pr-3 pl-1 max-lg:p-0">
-            <section className="w-full h-full p-2 bg-gray-100 lg:rounded shadow">
+            <section className="w-full h-full p-2 bg-gray-100 lg:rounded shadow whiteSection">
               {!isExpanded && <button onClick={collapsePanel} className="bg-teal-400 p-2 m-4 rounded hover:bg-teal-500 duration-200 max-lg:hidden">Show resizable bar</button>}
               <label htmlFor="my-drawer" className="float-end btn btn-primary drawer-button lg:hidden">Open drawer</label>
               <br />

@@ -6,4 +6,10 @@
     .add-hover-resizer {
         @apply hover:bg-gray-600 max-lg:hidden w-1
     }
+    .whiteSection {
+        height: 50rem;
+        background-image: radial-gradient(circle, rgb(223, 229, 235) 2px, #fff 2px);
+        background-size: 2.5rem 2.5rem;
+        background-position: center center;
+    }
 }

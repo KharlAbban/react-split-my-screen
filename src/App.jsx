@@ -23,10 +23,14 @@ function App() {
       <div className="drawer-content">
         {/* Page content here */}
         <PanelGroup autoSaveId="persistence" className="" direction="horizontal">
-          <Panel ref={panelRef} onExpand={handlePanelEXpand} onCollapse={handlePanelCollapse} id="23" className="h-screen max-lg:hidden" collapsible={true} defaultSize={16} minSize={15} maxSize={20}>
-            left
+          <Panel ref={panelRef} onExpand={handlePanelEXpand} onCollapse={handlePanelCollapse} id="23" className="h-screen max-lg:hidden flex items-center" collapsible={true} defaultSize={16} minSize={15} maxSize={20}>
+          <div className="avatar">
+            <div className="w-3/4 mx-auto rounded">
+              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+          </div>
           </Panel>
-          <PanelResizeHandle className="add-hover-resizer" />
+          <PanelResizeHandle title="Drag around to resize panes" className="add-hover-resizer" />
           <Panel className="h-screen py-2 pr-2 max-lg:p-0">
             <section className="w-full h-full p-2 bg-gray-100 lg:rounded shadow">
               {!isExpanded && <button onClick={collapsePanel} className="bg-teal-400 p-2 m-4 rounded hover:bg-teal-500 duration-200 max-lg:hidden">Show resizable bar</button>}

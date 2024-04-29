@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .add-hover-resizer {
+        @apply hover:bg-gray-600 max-lg:hidden w-1
+    }
+}

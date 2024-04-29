@@ -43,7 +43,7 @@ function App() {
               <h3  className="text-xl underline">What you can do</h3>
               <ul className="list-disc">
                 <li>~You can resize the white section (yeah, terrible naming)</li>
-                <li>~You can collapse the sidebar by dragging the white section (again, 😔) to the right end of the screen</li>
+                <li>~You can collapse the sidebar by dragging the white section (again, 😔) to the left end of the screen</li>
                 <li>~And one more trick, ✨, change your browser size to see the hidden full page navbar</li>
                 <li>~Explore - there's probably some  hidden secret! 😉</li>
               </ul>
